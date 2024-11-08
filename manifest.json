@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Dateifier",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Navigate to archived versions of the current page on web.archive.org.",
 
   "permissions": [
