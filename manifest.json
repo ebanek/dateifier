@@ -4,18 +4,23 @@
   "version": "1.0",
   "description": "Navigate to archived versions of the current page on web.archive.org.",
 
-  "icons": {
-    "48": "icon48.png"
-  },
-
   "permissions": [
     "activeTab",
     "https://web.archive.org/*"
   ],
 
   "browser_action": {
-    "default_icon": "icon48.png",
+    "default_icon": {
+	"48": "icon-light48.png"
+    },
     "default_title": "Dateifier",
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "theme_icons": [
+	    {
+		    "light": "icon-dark48.png",
+		    "dark": "icon-light48.png",
+		    "size": 48
+	    }
+    ]
   }
 }
